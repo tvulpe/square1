@@ -12,13 +12,13 @@
 - npm install
 
 ##### Edit .env file
-*DB_CONNECTION=sqlite 
-DB_CONNECTION=mysql 
-DB_HOST=127.0.0.1 
-DB_PORT=3306 
-DB_DATABASE= `database_name`
-DB_USERNAME= `your_username`
-DB_PASSWORD= `your_password`*
+*DB_CONNECTION=sqlite <br>
+DB_CONNECTION=mysql <br>
+DB_HOST=127.0.0.1 <br>
+DB_PORT=3306 <br>
+DB_DATABASE= `database_name` <br>
+DB_USERNAME= `your_username` <br>
+DB_PASSWORD= `your_password`* 
 
 ##### Run in shell
 - php artisan migrate
