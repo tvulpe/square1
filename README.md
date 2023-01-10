@@ -1,3 +1,37 @@
+## Set-up
+
+### Prerequisites
+- PHP >= 8.0
+- NPM >= 8.0
+- Node >= 16.0
+- MySQL
+
+### Steps
+##### Run in shell
+- composer install
+- npm install
+
+##### Edit .env file
+*DB_CONNECTION=sqlite 
+DB_CONNECTION=mysql 
+DB_HOST=127.0.0.1 
+DB_PORT=3306 
+DB_DATABASE= `database_name`
+DB_USERNAME= `your_username`
+DB_PASSWORD= `your_password`*
+
+##### Run in shell
+- php artisan migrate
+- php artisan db:seed
+
+##### One shell instance
+- php artisan serve
+
+##### Another shell instance
+- npm run dev
+
+<br><br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
